@@ -1,11 +1,181 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Qi-VLM .gitignore
+
+# ============================================
+# MODEL FILES (CRITICAL - DO NOT COMMIT)
+# ============================================
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.pickle
+
+# LoRA adapters (may contain trained weights)
+lora_adapter/
+adapter_*.bin
+adapter_config.json
+
+# ============================================
+# LARGE MEDIA FILES
+# ============================================
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.raw
+
+# Uploaded files
+temp_uploads/
+uploads/
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# TESTING
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ============================================
+# LOGS & DATABASES
+# ============================================
+*.log
+*.sqlite
+*.db
+logs/
+*.out
+
+# ============================================
+# OS GENERATED
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+credentials/
+
+# ============================================
+# OCR TOOLS (User-installed binaries)
+# ============================================
+tesseract/
+poppler/
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# DOCUMENTATION BUILDS
+# ============================================
+site/
+docs/_build/
+
+# ============================================
+# EXAMPLE FILES (Optional - uncomment if needed)
+# ============================================
+# examples/output/
+# examples/*.png
+# examples/*.jpg
+# examples/*.jpeg
+
+# ============================================
+# PACKAGE MANAGERS
+# ============================================
+poetry.lock
+Pipfile.lock
+.pdm-python
+
+# ============================================
+# DOCKER (if used)
+# ============================================
+.docker/
+docker-compose.override.yml
+
+# ============================================
+# MISC
+# ============================================
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
