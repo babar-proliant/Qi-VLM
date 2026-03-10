@@ -1,0 +1,49 @@
+# Qi-VLM: Quantum-Informed Vision-Language Model
+# Core Dependencies
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+aiofiles>=23.2.1
+
+# Frontend
+streamlit>=1.28.0
+
+# AI/ML Core
+torch>=2.0.0
+transformers>=4.37.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+peft>=0.7.0
+llama-cpp-python>=0.2.20
+
+# Vision
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+
+# Medical Imaging
+pydicom>=2.4.0
+numpy>=1.24.0
+
+# OCR
+pytesseract>=0.3.10
+pdf2image>=1.16.0
+
+# Hugging Face
+huggingface-hub>=0.20.0
+safetensors>=0.4.0
+
+# Utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+markdown>=3.5.0
+
+# Optional: For development
+# pytest>=7.4.0
+# black>=23.0.0
+# isort>=5.12.0
+# mypy>=1.5.0
+
+# Optional: Alternative cloud inference (fallback)
+# z-ai-web-dev-sdk>=0.1.0
