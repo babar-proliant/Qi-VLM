@@ -16,6 +16,9 @@
 
 </div>
 
+<img width="1899" height="940" alt="Screenshot 2026-03-11 122937" src="https://github.com/user-attachments/assets/97d43f83-b6f8-467a-afb3-02bfccb84100" />
+
+
 ---
 
 ## 🎯 The Problem with Medical AI Today
