@@ -522,7 +522,7 @@ If you use Qi-VLM in your research, please cite:
   title = {Qi-VLM: Quantum-Informed Vision-Language Model for Clinical Diagnostics},
   author = {Babar Ali},
   year = {2026},
-  url = {https://github.com/YOUR_USERNAME/qi-vlm}
+  url = {https://github.com/babar-proliant/Qi-VLM}
 }
 ```
 
