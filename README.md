@@ -6,7 +6,12 @@
 <img src="https://img.shields.io/badge/CUDA-11.8+-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
 <img src="https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge" alt="License"/>
 
-# Qi-VLM
+
+## ⚠️ I feel a need to enhance, it is hidden for sometime, will public full code soon
+
+
+
+# Qi-VLM 
 
 ### Quantum-Informed Vision-Language Model for Clinical Diagnostics
 
